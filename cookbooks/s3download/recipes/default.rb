@@ -12,6 +12,6 @@ script "content_download" do
   user "root"
   cwd "/tmp"
   code <<-EOH
-    sudo aws s3 cp s3://spbucket123/OpsWorks/sampleapp.war /home/ubuntu/new/sampleapp.war
+    sudo aws s3 cp s3://spbucket123/OpsWorks/sampleapp.war /var/lib/tomcat7/webapps/
   EOH
 end
