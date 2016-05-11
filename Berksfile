@@ -1,2 +1,2 @@
 source "https://api.berkshelf.com";
-cookbook "deployfile"
+cookbook "deployfile", path: "/home/ubuntu/new"
