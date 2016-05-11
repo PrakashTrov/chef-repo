@@ -1,3 +1,2 @@
 source "https://api.berkshelf.com&quot;
-
-cookbook "s3download", path: "./"
+cookbook "aws", ">= 2.2.2"
