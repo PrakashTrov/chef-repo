@@ -15,4 +15,3 @@ aws_s3_file "/home/ubuntu/downloadfile/sampleapp.war" do
   aws_access_key_id node[:custom_access_key]
   aws_secret_access_key node[:custom_secret_key]
 end
-
