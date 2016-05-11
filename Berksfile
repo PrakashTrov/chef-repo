@@ -1,3 +1,2 @@
-source "https://api.berkshelf.com&quot;
-
-cookbook "s3download", path: "./"
+source "https://api.berkshelf.com";
+cookbook "deployfile", path: "/home/ubuntu/new"
